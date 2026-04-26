@@ -55,6 +55,7 @@ namespace FuckSfk
                 delBakChk.Checked = dialog == DialogResult.Yes;
             }
         }
+
         private void Log(string text)
             => Invoke((Action)(() => logBox.AppendText($"{text}\n")));
 
